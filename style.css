@@ -41,5 +41,59 @@ body {
     color: inherit;
 }
 
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-one {
+    display: flex;
+    height: 360px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.container-one h1,
+.container-one p {
+    color: white;
+}
+
+.container-one-main-part {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 30%;
+}
+
+.container-one-main-part button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    width: 120px;
+    height: 36px;
+    color: white;
+    font-size: 16px;
+}
+
+.container-one-picture {
+    display: flex;
+    width: 640px;
+    height: 260px;
+    background-color: darkgrey;
+    
+}
+
+.main-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+
 
 
