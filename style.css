@@ -133,6 +133,9 @@ body {
 }
 
 .container-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 400px; /*adjust later*/
     width: 100vw;
     background-color: #e5e7eb;
@@ -141,13 +144,20 @@ body {
 .text-container {
     display: flex;
     flex-direction: column;
-    text-align: start;
+    flex-wrap: wrap;
+    width: 1000px;
 }
 
 .container-three p {
     font: 36px lighter italic; /*missing font*/
     color: #1F2937;
     flex-wrap: wrap;
+}
+
+.quote {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .container-four {
