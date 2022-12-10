@@ -88,10 +88,13 @@ body {
 }
 
 .main-picture {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
+    flex-grow: 1;
+    text-align: center;
+    align-self: center;
+}
+
+.container-two {
+    height: 500px;
 }
 
 .container-two-title {
@@ -101,14 +104,14 @@ body {
     color: #1F2937;
     font-size: 36px;
     font-weight: bold; /*missing extra-bold font for Roboto*/
-    height: 180px;
+    height: 140px;
 }
 
 .container-two-info {
     display: flex;
     justify-content: center;
     gap: 20px;
-    color: #1F2937;
+    color: #1F2937;;
 }
 
 .container-two-content {
