@@ -106,6 +106,25 @@ body {
     color: white;
 }
 
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 360px;
+}
+
+.section-two-title {
+    color: #1f2937;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.section-two-container {
+    display: flex;
+    flex-direction: row;
+}
 
 
 
