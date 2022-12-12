@@ -15,7 +15,10 @@ body {
 .footer,
 .section-one {
     background-color: #1f2937;
-    color: white;
+}
+
+.header,
+.footer {
     height: 60px;
 }
 
@@ -23,10 +26,11 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: #f9faf8;
 }
 
 .logo {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bolder;
 }
 
@@ -45,7 +49,61 @@ body {
 }
 
 .section-one {
-    height: 360px;
+    display: flex;
+    height: 420px;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.container-one-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 600px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900; /*there is no "extra-bold" font so I had to use 900*/
+    color: #f9faf8;
+    flex-wrap: wrap;
+    width: 450px;
+    line-height: 50px;
+    margin-bottom: 18px;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    flex-wrap: wrap;
+    width: 450px;
+    margin-bottom: 12px;
+}
+
+.sign-button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    width: 124px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+.container-one-right {
+    display: flex;
+    width: 600px;
+}
+
+.container-one-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#566170;
+    width: 460px;
+    height: 200px;
+    color: white;
 }
 
 
