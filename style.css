@@ -177,7 +177,42 @@ body {
     margin-right: 20px;
 }
 
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+}
 
+.container-four-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    width: 900px;
+    height: 160px;
+    border-radius: 8px;
+}
+
+.container-four-text,
+.container-four-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-main-section-four {
+    color: #f9faf8;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.text-section-four {
+    color: #f9faf8; 
+}
+
+.container-four-button .sign-button {
+    border: 2px solid #f9faf8;
+}
 
 
 
