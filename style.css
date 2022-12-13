@@ -93,18 +93,14 @@ body {
 
 .container-one-right {
     display: flex;
-    width: 600px;
+    align-items: flex-start;
 }
 
-.container-one-picture {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:#566170;
-    width: 460px;
-    height: 200px;
-    color: white;
+.main-picture {
+    height: 250px;
+    width: auto;
 }
+
 
 .section-two {
     display: flex;
